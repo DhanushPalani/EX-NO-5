@@ -44,9 +44,11 @@ while True:
     print("logical Address",s.recv(1024).decode())
 ```
 CLIENT OUTPUT :
+
 ![image](https://github.com/DhanushPalani/EX-NO-5/assets/121594640/22589376-c87d-4ef2-a52d-ac30f96fa164)
 
 SERVER OUTPUT :
+
 ![image](https://github.com/DhanushPalani/EX-NO-5/assets/121594640/5c9e969b-742f-4ccc-8f7d-0637347c2874)
 
 RESULT:
