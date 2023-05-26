@@ -7,17 +7,28 @@ To write a python program for implementing Reverse Address Resolution Protocol(R
 # ALGORITHM:
 ## Client:
 Start the program
+
 Using datagram sockets UDP function is established.
+
 Get the MAC address to be converted into IP address.
+
 Send this MAC address to server.
+
 Server returns the IP address to client.
 ## Server:
+
 Start the program.
+
 Server maintains the table in which IP and corresponding MAC addresses are stored.
+
 Read the MAC address which is send by the client.
+
 Map the IP address with its MAC address and return the IP address to client.
+
 # PROGRAM:
+
 ## CLIENT:
+
 ```
 import socket
 s = socket.socket()
@@ -33,6 +44,7 @@ while True:
        c.send("Not found".encode())
  ```
 ## SERVER:
+
 ```
 import socket
 s=socket.socket()
@@ -52,4 +64,5 @@ SERVER OUTPUT :
 ![image](https://github.com/DhanushPalani/EX-NO-5/assets/121594640/5c9e969b-742f-4ccc-8f7d-0637347c2874)
 
 RESULT:
+
 Thus, the python program for simulating RARP protocols using TCP was successfully executed.
